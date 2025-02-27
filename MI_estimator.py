@@ -30,7 +30,7 @@ analysis_figures = False  # True will run the post-estimaion analysis cells
 
 today = date.today().strftime("%Y%m%d")  # for versioning purposes
 
-chdir('C:\\Users\\Tomer\\Dropbox\\-the research\\2020 10 IIASA\\MI_project\\git\\MaterialIntensityEstimator')  # set working directory
+chdir('C://Users/Clothilde/Documents/GitHub/MaterialIntensityEstimator')  # set working directory
 
 dims_structure_import = pd.read_excel("data_input_and_ml_processing\\dims_structure.xlsx", sheet_name="dims_structure")  # load the names of dimensions (labels) and their optional entities
 
